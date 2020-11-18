@@ -1,0 +1,1816 @@
+@charset "utf-8";
+
+.white-bg {
+    background-color: #ffffff;
+}
+.red {
+    color: #ac1828;
+}
+
+.blue {
+    color: #0f3580;
+}
+
+.orange {
+    color: #d73c0e;
+}
+
+.red-bg {
+    background-color: #ac1828;
+}
+
+.blue-bg {
+    background-color: #0f3580;
+}
+
+.oragne-bg {
+    background-color: #d73c0e;
+}
+
+.grey-bg {
+    background-color: #f3f7ff;
+}
+
+.copyright-bg {
+    background-color:white;
+}
+.volt1{
+    text-align:center;
+    padding-top:20px;
+}
+.volt2 img{
+
+}
+.mobile-image{
+    display: block;
+    }
+.desktop-image{
+    display: none;
+    }
+@media (min-width:992px)
+{
+   
+.mobile-image{
+    display: none;
+    }
+.desktop-image{
+    display: block;
+    }
+    }
+.container5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top:10px;
+        
+      }
+      
+.social5 {
+        position: relative;
+        display: inline-block;
+        padding: 38px;
+      }
+.social5 img{
+    
+
+}
+.logo2 {
+    float: left;
+    width: 50%;
+    padding: 35px;
+}
+.logo12 {
+    text-align:center;
+}
+.logo12 img{
+    width:20%
+}
+
+.logo1{
+    width:80%;
+    padding-left:20%;
+
+}
+ 
+.logo1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+.site-header{
+    display: flex;
+    padding: 2vw 8vw;
+    background-color: black;
+    justify-content: center;
+    
+}
+
+.site-header p{
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.site-title {
+    justify-content: center;
+    line-height: 64px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.site-title img {
+    width: 15%;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.before{
+    font-size: 14px;
+    color: #888888;
+    font-family: 'Nato Sans JP',sans-serif;
+    font-weight: 300; 
+}
+
+
+.sec-header-title {
+    background-color: #ed6d00;
+    color: #ffffff;
+    height: auto;
+    text-align: center;
+    font-size: 5vw;
+    justify-content: center;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.sec-header-snowplows {
+    display: flex;
+    background-color: black;
+}
+.sec-header-snowplows1 {
+    display: flex;
+   
+}
+.body1-snowplow-left {
+    position: relative;
+    width: 100%;
+    margin-bottom: -6px;
+   
+}
+.body1-snowplow-left1 {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    background-color: #000000;
+    
+}
+.body1-snowplow-left2 {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    background-color: #333333;
+    
+}
+
+.body1-snowplow-left img{
+    width: 100%;
+    height: 102%;
+}
+.body1-snowplow-left1 img{
+    width: 100%;
+}
+.body1-snowplow-left2 img{
+    width: 100%;
+}
+.body1-snowplow-left a:hover {
+	opacity: 0.8;
+}
+.body1-snowplow-left1 a:hover {
+	opacity: 0.8;
+}
+.body1-snowplow-left2 a:hover {
+	opacity: 0.8;
+}
+
+.snowplow-left-text {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    text-shadow: 0 0 10px #000000;
+}
+.features{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+h1,h2{
+    display: inline;
+    
+    }
+h1{
+    font-size: 25px;
+    font-family:Oswald ;
+    font-weight: 400;
+    color: white;
+}
+h2{
+    font-size: 15px ;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+    letter-spacing: 1px;
+
+}
+.text-main{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    font-size: 15px;
+    font-family: 'Nato Sans JP',sans-serif;
+    font-weight: 400;
+    
+}
+.line{
+    padding-left: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+    /* Should be removed. Only for demonstration */
+  }
+  .row{
+      padding-bottom: 20px;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .point-btn{
+    background-color: #F2703A;
+    border-radius: 21px;
+    text-align: center;
+    color: white;
+    font-family: Oswald;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+  }
+
+  .point-title{
+      text-align: center;
+    font-family: 'Nato Sans JP',sans-serif;
+    font-size:  18px; 
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+
+  }
+  .Point-img{
+  width: 100%;
+  padding-top: 10px;
+
+  }
+  .point-txt{   
+      width: 100%;
+      font-family: 'Nato Sans JP',sans-serif;
+      font-size:  14px; 
+      font-weight: 350;
+      padding-top: 10px;
+      letter-spacing: 1px;
+  }
+
+
+.group-title {
+    font-size: 18px;
+    background-image: url("../images/sjc1@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    padding-bottom: 80px;
+}
+.group-title1{
+    font-size: 18px;
+    background-image: url("../images/slc1@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    padding-bottom: 99px;
+}
+
+}
+ .row1{
+    padding-top: 15px;
+ }
+ .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column1{
+    float: left;
+  width: 25%;
+  padding: 10px;
+  height: 200px;
+}
+.Scene-ttl{
+    font-size: 18px;
+    color: black;
+    font-family: 'Nato Sans JP',sans-serif;
+    font-weight: 420;
+}
+.scene-img{
+    width: 100%;
+    padding-top: 5px;
+    padding-right: 20px;    
+    
+}
+.row2{
+    padding-top: 15px;
+    width: 90%;
+    padding-left: 100px;
+ }
+ .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column2{
+    float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px;
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .button1 {
+    background-color: white;
+    color:black;
+    border-radius: 100px;
+    padding: .5em 0em .5em 0em;
+    text-decoration: none;
+    transition: padding .3s ease;
+    width:70%;
+    text-align: center;
+    border-style: solid;
+    border-color: #212121;
+    border-width:2px;
+    font-size: 15px;
+    font-family: 'Nato Sans JP',sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .arrow1 {
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+  
+  .button1:hover {
+    padding-right: 1.5em;
+  }
+  
+  .button1:hover .arrow1 {
+    opacity: 1;
+  }
+  .row3{
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 70px;
+  }
+
+ .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column3{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-left: 200px;
+  
+}
+.column4{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-right: 200px;
+
+}
+
+.button2{
+    font-size: 15px;
+    font-family: 'Nato Sans JP',sans-serif;
+    font-weight: 400;
+    padding:15px 100px 15px 100px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.container2{
+
+}
+.arrow2 {
+    opacity: 0;
+    transition: opacity .3s ease;
+    color: white;
+  }
+  
+  .button2:hover {
+    padding-right: 110px;
+    padding-left:100px;
+  }
+  
+  .button2:hover .arrow2 {
+    opacity: 1;
+  }
+
+.wrapper-1000 {
+    width: 100%;
+    margin: 0 auto;
+   /* background-color: #fff2f3; */
+}
+
+.width-1000 {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.spec-info {
+    width: 96%;
+    margin: 22px auto;
+}
+.spec-info img {
+    width: 100%;
+}
+.engine-title {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.0;
+    border-left-width: 30px;
+    border-left-style: solid;
+    border-left-color: #000000;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.spec-content {
+    width: 100%;
+}
+
+.spec-content img {
+    width: 100%;
+}
+
+.spec-content-right {
+    background-image: url("../images/spec-inof01.png");
+    background-size: contain;
+    background-attachment: scroll;
+    width: 25%;
+}
+
+.spec-content-right img {
+    width: 207%;
+    height: 100%;
+}
+
+.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead th {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: #333333;
+    border: 2px solid #ffffff;
+}
+
+.spec-head-field {
+    width: 25%;
+}
+
+.spec-head-value {
+    width: 35%;
+}
+
+.spec-head-imgae {
+    width: 40%;
+}
+
+tr td {
+    font-size: 24px;
+    padding: 0;
+    border: 2px solid #ffffff;
+}
+
+.spec-field {
+    background-color: #d3d3d3;
+    color: #2b2321;
+}
+
+.spec-value {
+    background-color: #e6e6e6;
+    color: #2b2321;
+}
+
+.footer-section {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.footer-section hr {
+    border: 0.5px solid #cccccc;
+
+}
+
+.red-border {
+    border: 1px solid #ac1828;
+    border-radius: 5px;
+}
+
+.blue-border {
+    border: 1px solid #0f3580;
+    border-radius: 5px;
+}
+
+.enginetype-title {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.enginetype-title {
+    font-weight: normal;
+}
+
+.enginetype-title img {
+    width: 43% ;
+    padding-top: 55px ;
+    padding-bottom: 50px;
+}
+
+section.sec-enginetype {
+    margin-top: 0px;
+}
+
+section.sec-enginespec {
+    margin: 50px auto;
+}
+
+.snowplow-cost-title {
+    display: flex;
+    height: auto;
+    margin-top: 28px;
+    text-align: center;
+    vertical-align: baseline;
+    justify-content: center;
+}
+
+.snowplow-size {
+    display: flex;
+    height: auto;
+}
+
+.snowplow-size-right {
+    width: 49%;
+    margin-left: 1%;
+    display: flex;
+}
+
+.snowplow-size-left {
+    width: 33.33%;
+    display: flex;
+    padding: 10px;
+}
+
+.snowplow-size-right img{
+    width: 50%;
+}
+
+.cost-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    vertical-align: bottom;
+}
+
+.cost-title.red {
+    border-bottom: 3px solid #ac1828;
+}
+
+.cost-intro {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+.btn-stores-list1 {
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+.btn-stores-list1 img {
+    width: 80%;
+}
+
+.btn-stores-list2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.btn-stores-list2 img{
+    width:60%;
+}
+
+.btn-stores-list {
+    text-align: center;
+    color: #fff100;
+    margin-bottom: 15px;
+}
+
+.btn-stores-list img {
+    width: 100%;
+}
+
+.wrapper-934 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blower-detail {
+    width: 44.64%;
+}
+
+.blower-youtube {
+    width: 100%;
+    height: 544px;
+    padding: 75px 250px 75px 250px;
+    margin-top: -28px;
+}
+
+/*.blower-youtube {*/
+    /*width: 100%;*/
+    /*padding: 50px;*/
+    /*height: 500px;*/
+/*}*/
+
+.blower-video {
+    display: flex;
+}
+
+.snowplower-video-detail {
+    height: 34vw;
+    width: 100%;
+    /*padding: 3vw 14vw;*/
+}
+
+.snowplower-video-detail-bottom {
+    height: 41vw;
+    width: 100%;
+    padding: 3vw 14vw;
+}
+.snowplower-list img {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.snowplower-2piece {
+    display: flex;
+    margin-top: 10px;
+}
+
+.snow2piece-left {
+    width: 52%;
+    position: relative;
+    margin-right: 20px;
+}
+
+.snow2piece-right {
+    width: 50%;
+    position: relative;
+    /*margin-left: 10px;*/
+}
+
+.snow2piece-text {
+    position: absolute;
+    top: 0px;
+}
+
+.snowplower-4piece {
+    margin-top: 20px;
+}
+
+.snowplower-4piece img {
+    width: 100%;
+}
+
+.snow2piece-title {
+    color: #d73c0e;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.0;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: #d73c0e;
+    padding-left: 6px;
+}
+
+.snow2piece-content {
+    color: #000000;
+    font-size: 18px;
+    margin: 10px 5px 5px 13px;
+}
+
+.comp-list-title {
+    color: #000000;
+    font-size: 2.0vw;
+}
+
+.comp-list-content {
+    color: #ac1828;
+    font-size: 20px;
+}
+
+.snowplower-compare-list {
+    display: flex;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.snowplower-compare-list img {
+    width: 100%;
+}
+
+.snowplower-compare-list .snowplower-comp-list1 {
+    width: 33.33%;
+    margin: 1%;
+}
+
+.snowplower-video {
+    width: 68.2%;
+    margin: 36px auto 36px;
+}
+
+.btn-more-video {
+    width: 100%;
+    height: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #c42134;
+    border-radius: 35px;
+    margin-bottom: 31px;
+	font-size: 20px;
+}
+
+.snowplower-video2 {
+    margin-top: 100px;
+}
+
+.video2-subtitle {
+    text-align: center;
+    border-radius: 7px;
+    background-color: #1b7dbe;
+    padding: 24px 0;
+}
+
+.subtitle-desc {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.thumb-intro {
+    padding: 1.3vw 7vw 4.8vw 7vw;
+}
+
+.thumb-intro-tr {
+    display: flex;
+    margin-top: 3.2vw;
+}
+
+.thumbnail {
+    width: 150px;
+    height: auto;
+    /*border-radius: 58px;*/
+    overflow: hidden;
+}
+
+.thumbnail img{
+    width: 93%;
+}
+
+.thumb-intro-tr .thumb-intro-td {
+    width: 50%;
+    display: flex;
+}
+
+.thumbnail {
+    width: 134px;
+}
+
+.thumbnail-intro-text {
+    width: 61.9%;
+    padding-top: 15px;
+    color: #61615f;
+    font-weight: 500;
+}
+
+.intro-text {
+    font-size: 1.4vw;
+}
+
+.intro-person {
+    font-size: 1.4vw;
+    padding-top: 5px;
+}
+
+.w-50 {
+    width: 50%;
+}
+.p-10 {
+    padding: 10px;
+}
+
+.footer-site-logo {
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    /*align-items: center;*/
+    margin-bottom: 20px;
+}
+
+.footer-site-logo img {
+    width: 28%;
+    margin-bottom: -5px;
+}
+
+.footer-explain {
+    line-height: 2.0;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 2.0vw;
+}
+
+.footer-social-site {
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.footer-mark {
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.youtube-video {
+    width: 100%;
+    height: 34vw;
+}
+
+.footer-social-site .social-site-img {
+    width: 43%;
+    margin: 20px;
+}
+
+.footer-social-site .youtube-icon {
+    width: 100%!important;
+    margin: 20px;
+}
+
+.footer-mark .mark {
+    width: 30%;
+}
+
+.footer-social-site p {
+    text-align: center;
+    font-weight: normal;
+}
+
+.footer-section-background {
+    border-radius: 7px;
+    background-color: #ed6d00;
+    padding: 5.8vw 0 0;
+    color: #ffffff;
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.footer-section-background img {
+    width: 12%;
+}
+
+.long-button {
+    cursor: pointer;
+    /*background-image: url("../images/long_button00.png");*/
+}
+
+.machine-button {
+    width: 45%;
+    cursor: pointer;
+    position: relative;
+    top: -290px;
+    left: 0;
+}
+
+.copyright-container p {
+    font-weight: bold;
+    color: black;
+    font-family: 'Nato Sans JP',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blower-detail-img {
+    width: 95%;
+    top: 51px;
+    left: 70px;
+    position: relative;
+}
+
+.detail-img-sp {
+    display: none;
+}
+
+.blower-detail-img2 {
+    width: 95%;
+    top: 30px;
+    left: 20px;
+    position: relative;
+}
+
+.image-width-100 {
+    width: 100%;
+}
+
+.space-20 {
+    height: 20px;
+}
+
+.space-30 {
+    height: 30px;
+}
+.smart{
+   background-color: #F4F4F4;
+}
+.smart1{
+    text-align: center;
+    padding-top: 30px;
+}
+.smart2{
+   text-align: center;
+   padding-top: 20px;
+}
+.smart2 img{
+    width:35%;
+}
+.smart3{
+
+text-align: center;
+padding-top: 40px;
+padding-bottom: 10px;
+}
+
+.smart3 img{
+    width:15%;
+}
+.smart4{
+    text-align:center;
+}
+.smart4 img{
+   width: auto;
+   padding-top: 35px;
+}
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .button3 {
+    background-color:black;
+    color:white;
+    border-radius: 100px;
+    padding: .5em 0em .5em 0em;
+    text-decoration: none;
+    transition: padding .3s ease;
+    width:35%;
+    text-align: center;
+    border-style: solid;
+    border-color: #212121;
+    border-width:2px;
+    font-size: 15px;
+    font-family: 'Nato Sans JP',sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .arrow3 {
+    opacity: 0;
+    transition: opacity .3s ease;
+    color: white;
+  }
+  
+  .button3:hover {
+    padding-right: 1.5em;
+  }
+  
+  .button3:hover .arrow3 {
+    opacity: 1;
+  }
+
+
+
+.footer-logo{
+   
+    background-color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1600px){
+    .group-title {
+       
+        padding-bottom: 0px;
+    }
+    .blower-youtube {
+       
+        margin-top: -30px;
+    }
+  
+    
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .main-content {
+        width: 100%;
+	}
+    .sec-header-title {
+        font-size: 48px;
+    }
+    .intro-text {
+        font-size: 16px;
+    }
+    .intro-person {
+        font-size: 16px;
+    }
+    .site-header{
+        display: flex;
+        padding: 20px 96px;
+        background-color: black;
+        justify-content: center;
+    }
+    .footer-section-background {
+        padding: 64px 0 0;
+    }
+   
+    .footer-explain {
+        font-size: 24px;
+    }
+    .comp-list-title {
+        font-size: 25px;
+    }
+    .thumb-intro {
+        padding: 10px 60px 40px 60px;
+    }
+    .thumb-intro-tr {
+        margin-top: 28px;
+    }
+    .youtube-video {
+        width: 100%;
+        height: 100%;
+    }
+    .snowplower-video-detail {
+        height: 416px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .snowplower-video-detail-bottom {
+        height: 450px;
+        width: 100%;
+        padding: 40px 200px;
+    }
+    .container
+    {
+        width: 1200px;
+    }
+    .copyright-container,
+    .footer-section {
+        width: auto;
+    }
+    .sec-header{
+        width: auto;   
+    }
+    .container-full{
+        width: auto;
+    }
+  s
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .column3{
+        padding-left: 50px;
+    }
+    .column4{
+        padding-right: 50px;
+    }
+    .group-title {
+        font-size: 18px;
+        background-image: url(../images/sjc-tab-pro@2x.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+        padding-bottom: 14px;
+    }
+    .group-title1 {
+        font-size: 18px;
+        background-image: url(../images/slc-tab-pro@2x.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+        padding-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+	/*.sec-header-title {*/
+		/*font-size: 40px;*/
+	/*}*/
+
+	.machine-button{
+		top: -260px;
+	}
+    .intro-text {
+        font-size: 14px;
+    }
+    .intro-person {
+        font-size: 14px;
+    }
+	.cost-title {
+		font-size: 36px;
+	}
+    .subtitle-desc {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .main-content,
+    .container,
+    .copyright-container,
+    .footer-section {
+        width: 100%!important;
+    }
+    .social5 {
+       
+        padding: 15px;
+      }
+    .social5 img{
+        width:100%;
+    }
+    .volt2 img{
+        width:96%;
+    }
+    .smart2 img{
+        width:60% ;
+    }
+    .smart3 img{
+        width:60%;
+    }
+    .features{
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .column {
+        width: 100%;
+        padding-top: 10px;
+        text-align: center;
+        /* Should be removed. Only for demonstration */
+      }
+    .point-btn{
+        padding-top: 0px;
+        margin: auto;
+        width:50%
+    }
+    .btn-stores-list1 {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .enginetype-title img {
+        width: 43%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .btn-stores-list1 img{
+       width: 100%;
+    }
+    .site-title img {
+        width: 40%;
+    }
+.scene-img{
+    padding-top: 0px;
+    padding-right: 0px;
+}
+.Scene-ttl{
+    font-size: 13px;
+}
+.row1{
+    padding-top: 0px;
+    padding-left: 12px;
+}
+.column1{
+    padding: 3px;
+    height: 135px;
+    padding-bottom: 0px;
+}
+.row2{
+    padding-top: 0px;
+    padding-left: 80px;
+}
+.column2{
+    height:135px;
+    padding:3px;
+
+}
+.container1 {
+    margin-bottom: 25px;
+  }
+.button1{
+    width:60%;
+    padding:7px 0px 7px 0px;
+}
+.column3{
+    padding-left: 0px;
+}
+.column4{
+    padding-right: 0px;
+}
+.smart4 img{
+    width:95%;
+}
+
+
+    .spec-info {
+        width: 96%;
+    }
+
+    .footer-section-background {
+        margin: 0 20px;
+        font-size: 20px;
+    }
+
+    .footer-section-background span {
+        margin: 0 20px;
+        font-size: 2.1vw;
+    }
+    .sec-header-title {
+        padding: 1vw;
+    }
+    .blower-youtube {
+        width: 100%;
+        padding: 9.5vw;
+        height: 58vw;
+    }
+    .snowplower-video-detail {
+        height: 100%;
+        /*width: 100%;*/
+        /*margin: 60px auto;*/
+    }
+    .snowplower-video-detail-bottom {
+        height: 100%;
+        width: 100%;
+        margin: 60px auto;
+    }
+    .youtube-video {
+        width: 100%;
+        height: 54vw;
+    }
+    .wrapper-1000 {
+        width: 100%!important;
+        margin: 0;
+        border-radius: 0;
+        
+    }
+
+    .blue-border {
+        width: 100%!important;
+        margin: 0;
+        border-radius: 0;
+        border-right-color: #f4f7fe;
+        border-left-color: #f4f7fe;
+        border-bottom-color: #14347a;
+        background-color: #f4f7fe;
+    }
+
+    .snowplow-cost-title{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .cost-title {
+        width: fit-content;
+        margin: 0 auto;
+        padding-bottom: 0px;
+    }
+
+    .cost-intro {
+        margin-top: 20px;
+    }
+
+    .blower-video {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .blower-detail {
+        width: 100%;
+    }
+
+    .blower-detail .machine-button {
+        width: 39%;
+        top: -276px;
+    }
+
+    .blower-detail .blower-detail-img {
+        width: 55%;
+        right: -310px;
+        left: auto;
+    }
+
+    .snowplow-size {
+        display: inline-block;
+    }
+
+    .snowplow-size-left, .snowplow-size-right {
+        width: 100%;
+        margin: 30px 0 0;
+
+    }
+
+    .snowplow-size-right img {
+        margin-left: 0;
+        width: 50%;
+    }
+
+    .detail-img {
+        display: none;
+    }
+
+    .detail-img-sp {
+        display: inline-block;
+    }
+    .intro-text {
+        font-size: 3.2vw;
+    }
+    .intro-person {
+        font-size: 3.2vw;
+    }
+    .snow2piece-left, .snow2piece-right {
+        width: 100%;
+        margin-top: 55px;
+    }
+
+    .snowplower-4piece {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .snowplower-2piece {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .snowplower-compare-list {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .snowplower-comp-list1 {
+        width: 84%!important;
+        margin: 10px auto!important;
+    }
+
+    .snowplower-video {
+        width: 100%;
+    }
+
+    .comp-list-title {
+        font-size: 5.2vw;
+    }
+
+    .comp-list-content {
+        font-size: 5.4vw;
+    }
+
+    .thumb-intro-tr {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .thumb-intro-tr .thumb-intro-td {
+        width: 100%!important;
+        margin-top: 3.0vw;
+    }
+
+    .thumbnail {
+        width: 35%;
+        height: auto;
+    }
+
+    .thumbnail img {
+        width: 88%;
+    }
+
+    .thumbnail-intro-text {
+        width: 65%;
+        font-size: 2.8vw;
+    }
+
+    .footer-social-site {
+        margin-top: 50px;
+    }
+
+    .footer-social-site .social-site-img {
+        /*width: 10%;*/
+        /*margin: 43px;*/
+    }
+
+    .footer-social-site .youtube-icon {
+        /*width: 30%;*/
+    }
+
+    .wrapper-934 {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .enginetype-title img {
+        width: 70%;
+        
+    }
+    .group-title {
+        font-size: 18px;
+        background-image: url(../images/sjc-tab@2x.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+        padding-bottom: 14px;
+    }
+
+    .group-title1 {
+        font-size: 18px;
+        background-image: url(../images/slc-tab@2x.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+        padding-bottom: 14px;
+    }
+}
+@media screen and (max-width: 760px) {
+    /*.sec-header-title {*/
+        /*font-size: 34px;*/
+    /*}*/
+
+    .column3{
+        padding-left: 0px;
+
+    }
+    .column4{
+        padding-right: 0px;
+    }
+    .features{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .btn-stores-list2 img {
+        width: 90%;
+    }
+    .column {
+        width: 100%;
+        padding-top: 10px;
+        text-align: left;
+        /* Should be removed. Only for demonstration */
+      }
+    .column1{
+        width:50%;
+    }
+    .row2{
+        width:100%;
+        
+
+    }
+    .column2{
+        width:50%;
+    }
+
+    .button1{
+        width:90%;
+
+    }
+    .button2{
+        padding:15px 20px 15px 20px;
+    }
+    .button2:hover {
+        padding-right: 16px;
+        padding-left:17px;
+      }
+
+    .point-btn{
+        padding-top: 0px;
+        margin: auto;
+        width:70%
+    }
+    .smart{
+        background-position: center;
+        background-size: cover;
+    }
+    .smart1 img{
+        width:70%
+    }
+    .smart2 img{
+        width:90%;
+    }
+    .smart3 img{
+        width:95%;
+    }
+
+	.blower-detail .blower-detail-img {
+		right: -250px;
+	}
+	.footer-social-site .social-site-img {
+		/*width: 8%;*/
+	}
+	.cost-title {
+		font-size: 30px;
+	}
+    .subtitle-desc {
+        font-size: 2.3vw;
+    }
+	.cost-intro {
+		font-size: 14px;
+	}
+	.footer-social-site .youtube-icon {
+		/*width: 24%;*/
+    }
+    
+    .button3 {
+       
+        width:75%;
+        
+      }
+}
+
+@media screen and (max-width: 650px) {
+    /*.sec-header-title {*/
+        /*font-size: 32px;*/
+    /*}*/
+    .social5 {
+       
+        padding: 8px;
+      }
+	.blower-detail .machine-button {
+		top: -200px;
+	}
+	.blower-detail .blower-detail-img {
+		right: -210px;
+	}
+	.cost-title {
+		font-size: 26px;
+	}
+	.cost-intro {
+		font-size: 12px;
+	}
+    .enginetype-title img {
+        width: 91%;
+        padding-top: 14px;
+        padding-bottom: 24px;
+    
+    }
+    .row2{
+        padding-top: 0px;
+        padding-left: 12px;
+    }
+	.footer-social-site .social-site-img {
+		/*width: 6%;*/
+	}
+	.footer-social-site .youtube-icon {
+		/*width: 18%;*/
+	}
+}
+@media screen and (max-width: 480px) {
+    /*.sec-header-title {*/
+        /*font-size: 28px;*/
+    /*}*/
+    .footer-logo img{
+        width:25%;
+    }
+
+    .site-title img {
+        width: 50%;
+    }
+    .body1-snowplow-left img {
+        width: 100%;
+        height: 102%;
+    }
+    .body1-snowplow-left1 img {
+        width: 100%;
+       
+    }
+    .text-main{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        font-size: 10px;
+        font-family: 'Nato Sans JP',sans-serif;
+        font-weight: 300;
+        margin-top: 10px;
+}
+    }
+  
+	.blower-detail .machine-button {
+		top: -176px;
+	}
+	.blower-detail .blower-detail-img {
+		right: -180px;
+	}
+	.cost-title {
+		font-size: 20px;
+	}
+    .enginetype-title img {
+       
+    }
+
+
+    .btn-stores-list1 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    
+    .btn-stores-list1 img{
+       width: 90%;
+    }
+  
+
+
+
+	.cost-intro {
+		font-size: 10px;
+	}
+	.footer-social-site .social-site-img {
+		/*width: 4%;*/
+	}
+	.footer-social-site .youtube-icon {
+		/*width: 14%;*/
+	}
+}
+
+@media screen and (max-width: 400px) {
+    .blower-detail .machine-button {
+        top: -150px;
+    }
+
+    .blower-detail .blower-detail-img {
+        right: -140px;
+    }
+
+    .cost-title {
+        font-size: 18px;
+    }
+
+    .cost-intro {
+        font-size: 10px;
+    }
+
+    .footer-social-site .social-site-img {
+        /*width: 8%;*/
+        /*margin: 10px;*/
+    }
+
+    .footer-social-site .youtube-icon {
+        /*width: 20%;*/
+        /*margin: 10px;*/
+    }
+
+    .video2-subtitle img{
+        width: 88%;
+    }
+
+    .enginetype-title img {
+       
+    }
+
+    .subtitle-desc {
+        font-size: 16px;
+    }
+    .footer-social-site p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .blower-detail .machine-button {
+        top: -116px;
+    }
+
+    .blower-detail .blower-detail-img {
+        right: -116px;
+    }
+
+    .cost-title {
+        font-size: 18px;
+    }
+
+    .cost-intro {
+        font-size: 10px;
+    }
+    .enginetype-title img {
+       
+    }
+    .footer-social-site .social-site-img {
+        /*width: 8%;*/
+        /*margin: 10px;*/
+    }
+
+    .footer-social-site .youtube-icon {
+        /*width: 20%;*/
+        /*margin: 10px;*/
+    }
+
+    .video2-subtitle img{
+        width: 88%;
+    }
+
+    .subtitle-desc {
+        font-size: 16px;
+    }
+    .footer-social-site p {
+        font-size: 13px;
+    }
+}
